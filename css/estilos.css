@@ -1,0 +1,58 @@
+body {
+    background-color: #0b0c10;
+    color: white;
+    padding-bottom: 70px;
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+    background-color: #1f2833;
+    border-bottom: 4px solid #66fcf1;
+}
+
+.card {
+    background-color: #1c1c1c;
+    border: 2px solid #45a29e;
+    transition: transform 0.3s, border-color 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    border-color: #66fcf1;
+}
+
+img {
+    height: 300px !important;
+}
+
+.btn-db {
+    background-color: #45a29e;
+    color: white;
+    border: 2px solid #66fcf1;
+}
+
+.btn-db:hover {
+    background-color: #66fcf1;
+    color: black;
+}
+
+footer {
+    background-color: #1f2833;
+    border-top: 4px solid #66fcf1;
+}
+
+.filter-btn {
+    flex: 1;
+    margin: 0 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    background-color: #45a29e;
+    color: #0b0c10;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.filter-btn:hover {
+    background-color: #66fcf1;
+    color: black;
+}

@@ -1,0 +1,27 @@
+header {
+    background-image: url('https://wallpaperaccess.com/full/310661.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fffc00;
+    text-shadow: 2px 2px #000;
+}
+
+.card-title {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.modal-content {
+    border: 3px solid #66fcf1;
+    border-radius: 15px;
+}
+
+input.form-control {
+    border: 2px solid #66fcf1;
+    background-color: #1c1c1c;
+    color: #66fcf1;
+    font-weight: bold;
+}
+
+input.form-control::placeholder {
+    color: #45a29e;
+}
